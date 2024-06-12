@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "capstone_dao_backend": {
+      "main": "src/capstone_dao_backend/main.mo",
+      "type": "motoko"
+    },
+    "capstone_dao_frontend": {
+      "dependencies": [
+        "capstone_dao_backend"
+      ],
+      "source": [
+        "src/capstone_dao_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "capstone_dao_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
