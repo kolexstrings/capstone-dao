@@ -1,5 +1,3 @@
-import Principal "mo:base/Principal";
-import Time "mo:base/Time";
 import Nat "mo:base/Nat";
 import Result "mo:base/Result";
 import HashMap "mo:base/HashMap";
