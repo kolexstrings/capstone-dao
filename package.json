@@ -14,5 +14,12 @@
   "type": "module",
   "workspaces": [
     "src/capstone_dao_frontend"
-  ]
+  ],
+  "dependencies": {
+    "@dfinity/auth-client": "^1.3.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.2"
+  }
 }
