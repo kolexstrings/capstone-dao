@@ -11,11 +11,11 @@ actor MBToken {
   let ledger = Map.new<Principal, Nat>();
 
   public query func tokenName() : async Text {
-    return "Prop Share Token";
+    return "Open Real Estate Token";
   };
 
   public query func tokenSymbol() : async Text {
-    return "PST";
+    return "ORE";
   };
 
   public func mint(owner : Principal, amount : Nat) : async Result<(), Text> {
